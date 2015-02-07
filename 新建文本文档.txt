@@ -1,0 +1,69 @@
+GClass0   T04C_ImportMember
+GClass1   M01C_CreateMember              创建会员
+GForm1    S09F_UpdateTimerPrice          修改计时价格表
+GForm10   frmMain                        会员管理系统
+GForm11   M07F_Feedback                  意见反馈
+GForm12   S08F_UpdatePackage             修改套餐
+GForm13   frmLockScreen                  锁屏
+GForm14   T03F_CreateNote		 新建记事
+GForm15	  S09F_AddTimeBucket		 时段设置	
+GForm16	  S03F_UpdateProduct		 修改商品
+GForm17   M03F_MemberInfo		   会员信息
+GForm18   D05F_StartAreaDeal             开单
+GForm19	  D03F_ProductDealPay		 商品消费收款
+GForm2 	  S06F_SmsTemplate               短信模板设置
+GForm20	  D01F_SelectMember              选择会员
+GForm21	  C02F_SelectProduct		 选择商品	
+GForm22   T09F_02ClearBonusExchange	 删除积分兑换记录
+GForm23   T03F_UpdateNote		 查询/修改记事本
+GForm24   D03F_ProductDeal		 商品消费
+GForm25	  C08F_LicenceTips		 软件升级提醒
+GForm26   C05F_NoLimits			 无限访问
+GForm27   frmLogin                       操作员登录
+GForm28   T09F_01ClearSms		 删除短信发送记录	
+GForm29   S07F_CreateOperator		 新建操作员
+GForm3    C01F_SearchMember		 会员查询
+GForm30	  S01F_UpdateMemberGrade         修改会员等级
+GForm31   D05F_CheckOut                  收银结账
+GForm32   T03F_Note			 记事本
+GForm33   S08F_CreatePackage		 新建套餐
+GForm34	  S04F_UpdateShoppingGuide	 修改导购
+GForm35   S04F_CreateShoppingGuide	 新建导购
+GForm36   S03F_CreateProductGroup        新建商品分类
+GForm37	  D01F_ShoppingGuidePay		 导购提成设置	
+GForm38	  T09F_04ClearChargeHistory      删除会员充值记录	
+GForm39   T07F_EventAlert                事件提醒
+GForm4    T08F_BirtydayAlert		 会员生日提醒
+GForm40   S09F_CreateTimerPrice		 新建计时价格表
+GForm41   S07F_UpdateOperator		 查看/修改操作员
+GForm42   D02F_TimesDeal		 计次消费
+GForm43   D01F_SelectShoppingGuide	 选择导购
+GForm44	  M06F_ContactUs		 联系我们
+GForm45   D04F_PackageDeal		 套餐消费
+GForm46	  C06F_SoftUpdate		 软件升级
+GForm47   T07F_UpdateEvent		 查看/修改事件提醒
+GForm48   M08F_Help				使用帮助
+GForm49   T09F_03ClearMember		 删除会员
+GForm5    T02F_Calendar			 万年历
+GForm50	  S01F_CreateMemberGrade	 新建会员等级
+GForm51   D01F_CommonDeal		 普通消费
+GForm52   C03F_SelectMobile		 选择会员手机号码
+GForm53   T07F_CreateEvent		 新建事件提醒
+GForm54   S09F_UpdateArea		 修改区域
+GForm55   S03F_CreateProduct		 新建商品
+GForm56   C07F_YzdMessage		 官方资讯
+GForm6	  S09F_CreateArea		 新建区域
+GForm7 	  S03F_UpdateProductGroup	 修改商品分类
+GForm8    M03F_ChangeMemberNo		 会员换卡（修改会员编号）
+GForm9    D05F_OperateAreaDeal		 添加消费 / 结账
+
+最低折扣详细说明：比如香烟的商品设置“最低折扣”为7折，那么如果【普通会员】消费打8折，那么
+普通会员消费香烟就打8折。【VIP会员】打折属性是6折，那么当他消费香烟时，6折小于最低折扣7折，
+那么还是按7折计算。如果最低折扣是1，那么这个商品对任何人都不打折；如果最低折扣是0，那么
+该商品就按实际折扣来计算
+4、商品自定义属性名称可以在：【系统设置】->【自定义属性设置】菜单中配置。
+
+
+1、短信发送时，短信内容中的关键字会自动被会员对应的信息替换掉。
+2、为了提高短信到达率，防止短信被认定为垃圾短信。短信内容必须以【签名】格式结尾，并建议以：尊敬的会员开头。
+例如：尊敬的会员，您好!xxxxxxxxxx【某某餐厅】
